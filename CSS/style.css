@@ -4,7 +4,7 @@
  background-image: url(../images/banner/banner3.png);
  background-repeat: no-repeat;
  height: 800px;
- width: 1600px;
+width: 1600px;
 }
 .link-button{
     background-color: white;
@@ -48,4 +48,23 @@
     font-weight: 700;
     font-size: 30px;
   }
- 
+  .positive{
+    color: white;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1140px;
+    margin-top: 130px;
+    margin-left: 400px;
+    margin-right: 230px;
+    margin-bottom: 130px;
+}
+.positive h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+#positive{
+    width: 30%;
+    padding-top: 59px;
+    padding-left: 64px;
+}
