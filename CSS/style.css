@@ -4,12 +4,13 @@
 }
 /* think part */
 .all-think{
- color: white;
+  color: white;
  background-color: teal;
  background-image: url(../images/banner/banner3.png);
+ height: 900px;
+ background-position: center;
  background-repeat: no-repeat;
- height: 800px;
- width: 1600px;
+ background-size: cover;
 }
 .link-button{
     background-color: white;
