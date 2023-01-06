@@ -1,6 +1,8 @@
+/* body */
 *{
     margin: 0px;
 }
+/* think part */
 .all-think{
  color: white;
  background-color: teal;
@@ -29,6 +31,7 @@
  #half-width-think p{
     margin-bottom: 10px;
 }
+/* fail part */
  #half-width-fail{
     width: 30%;
     padding-top: 240px;
@@ -39,14 +42,15 @@
 #half-width-fail i{
     color: lightgreen;
 }
+.my-fail h1{
+  font-weight: 700;
+   font-size: 40px;
+}
+/* plans part */
  .flexible-container{
     display: flex;
     justify-content:space-around;
     padding-top: 131px;
-  }
-  .my-fail h1{
-    font-weight: 700;
-     font-size: 40px;
   }
   .share{
     max-width: 25%;
@@ -62,9 +66,19 @@
     font-weight: 700;
     font-size: 30px;
   }
+  /* positive part */
+  #link-button-call{
+    background-color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
   .positive{
     color: white;
-    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-image:
+    linear-gradient(to bottom, rgba(38, 61, 107, 0.596), rgba(69, 202, 226, 0.589)),
+    url(../images/watch.png);
     background-repeat: no-repeat;
     height: 300px;
     width: 1140px;
@@ -85,6 +99,55 @@
 #positive h1{
     margin-bottom: 10px;
 }
+/* contact part */
+#question{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 60px;
+  }
+#form{
+    background-color: cyan;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    box-shadow: 10px 10px 40px gray;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-left: 200px;
+  }
+  .contact-flexible{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
+  }
+  .contact-half-width{
+    width: 50%;
+    padding-left: 5px;
+  }
+  #question-image{
+    width: 110%;
+  }
+  #name{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+  }
+  #mail{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 305px;
+  }
+  #subject{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 400px;
+  }
+/* footer part */
 footer{
     background-color: black;
     color: white;
@@ -104,7 +167,7 @@ footer{
     width: 270px;
     border-radius: 10px;
 }
-#submit-btn{
+.submit-btn{
     margin-top: 10px;
     color: white;
     background-color:#005FAC;

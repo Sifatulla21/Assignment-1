@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Assignment</title>
+    <!-- link css -->
     <link rel="stylesheet" href="CSS/style.css">
+    <!-- link font awesome -->
     <script src="https://kit.fontawesome.com/395222f0f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="all-think">
+        <!-- right side part of all think section -->
         <div id="half-width-think">
             <h1>All Thinks Are Possible If You believe</h1>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
@@ -21,6 +24,7 @@
             <div>
                 <img src="images/person.png" alt="">
             </div>
+            <!-- fail part -->
             <div id="half-width-fail">
                 <h1>My failures of previous year</h1>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
@@ -37,29 +41,64 @@
         <div id="place">
             <h1>My Plans</h1>
         </div>
+        <!-- plans part with images -->
         <div class="flexible-container">
             <div class="share">
                 <img src="images/icons/web.png" alt="">
                 <h2>Web Development</h2>
+                <p>I want to start</p>
             </div>
             <div class="share">
                 <img src="images/icons/js.png" alt="">
                 <h2>Javascript</h2>
+                <p>I want to lern</p>
             </div>
             <div class="share">
                 <img src="images/icons/smoke.png" alt="">
                 <h2>Smoking Habit</h2>
+                <p>I want to stop</p>
             </div>
             <div class="share">
                 <img src="images/icons/ecom.png" alt="">
                 <h2>Ecommerce</h2>
+                <p>I want to built</p>
             </div>
         </div>
     </section>
     <section class="positive">
         <div id="positive">
             <h1>Awlays keep a positive mindset</h1>
-            <a class="link-button" href="#">Call Now <i class="fa-sharp fa-solid fa-phone"></i></a>
+            <a id="link-button-call" href="#">Call Now <i class="fa-sharp fa-solid fa-phone"></i></a>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="contact">
+        <h1 id="question">Have Some Question?</h1>
+        <div class="contact-flexible">
+            <div class="contact-half-width">
+                <img id="question-image" src="images/contact.png" alt="">
+            </div>
+            <div id="form" class="contact-half-width">
+                <form action="#">
+                    <p>
+                        <label>Name</label>
+                        <input id="name" type="text"  placeholder="Enter Your Name"></p>
+                    
+                    <p>
+                        <label>Email</label>
+                        <input id="mail" type="email"  placeholder="Enter Your Mail">
+                    </p>
+
+                    <p>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    </p>
+                   <a class="submit-btn" href="#">Submit</a>
+                
+                </form>
+
+            </div>
+                
         </div>
     </section>
     <footer>
@@ -79,7 +118,7 @@
             <div class="half">
                 <h1>Subscribe</h1>
                 <input type="text" placeholder="Enter Your Email">
-                <a id="submit-btn" href="">Submit</a>
+                <a class="submit-btn" href="">Submit</a>
             </div>
         </div>
 
