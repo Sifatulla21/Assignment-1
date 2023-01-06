@@ -1,6 +1,6 @@
 
 .all-think{
-    color: white;
+ color: white;
  background-image: url(../images/banner/banner3.png);
  background-repeat: no-repeat;
  height: 800px;
@@ -35,4 +35,17 @@
     font-weight: 700;
      font-size: 40px;
   }
-  
+  .share{
+    max-width: 25%;
+    float: center;
+    justify-content:space-around;
+
+  }
+  #place{
+    text-align: center;
+  }
+  .my-plan h2{
+    font-weight: 700;
+    font-size: 30px;
+  }
+ 
