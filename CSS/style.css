@@ -22,3 +22,17 @@
      font-weight: 700;
      font-size: 65px;
  }
+ #half-width-fail{
+    width: 30%;
+    padding-top: 240px;
+}
+ .flexible-container{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 131px;
+  }
+  .my-fail h1{
+    font-weight: 700;
+     font-size: 40px;
+  }
+  
