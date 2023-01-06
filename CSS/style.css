@@ -1,0 +1,24 @@
+
+.all-think{
+    color: white;
+ background-image: url(../images/banner/banner3.png);
+ background-repeat: no-repeat;
+ height: 800px;
+ width: 1600px;
+}
+.link-button{
+    background-color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#half-width-think{
+    width: 30%;
+    padding-top: 200px;
+    padding-left: 900px;
+}
+ #half-width-think h1{
+     font-weight: 700;
+     font-size: 65px;
+ }
