@@ -4,13 +4,14 @@
 }
 /* think part */
 .all-think{
-  color: white;
+ color: white;
  background-color: teal;
  background-image: url(../images/banner/banner3.png);
  height: 900px;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+
 }
 .link-button{
     background-color: white;
@@ -21,8 +22,9 @@
 }
 #half-width-think{
     width: 30%;
-    padding-top: 200px;
-    padding-left: 900px;
+    text-align: right;
+    padding-top: 300px;
+    padding-left: 1200px;
 }
  #half-width-think h1{
      font-weight: 700;
@@ -30,7 +32,7 @@
      margin-bottom: 10px;
  }
  #half-width-think p{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /* fail part */
  #half-width-fail{
@@ -159,6 +161,10 @@ footer{
     padding-left: 200px;
     padding-top: 130px;
     padding-bottom: 130px;
+}
+#icons{
+  margin-top: 20px;
+  justify-content: space-around;
 }
 .half{
     width: 30%;
